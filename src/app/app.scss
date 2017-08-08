@@ -230,3 +230,9 @@ ion-header.header {
   position: absolute;
   bottom: 0px;
 }
+
+.left, .right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
