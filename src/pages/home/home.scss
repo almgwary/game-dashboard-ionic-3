@@ -152,6 +152,53 @@ page-home {
         .right{
           z-index: 4;
           position: relative;
+
+          .sub-header{
+            font-family: "Avenir Next";
+            font-size: 14px;
+            font-weight: 700;
+            text-align: right;
+            width: 100%;
+            color: #ffffff;
+            display: block;
+            padding-right: 10px;
+
+          }
+          .actions{
+            margin-top: 4px;
+            position: relative;
+            display: block;
+            text-align: right;
+            padding-right: 10px;
+            .action-icon{
+              width: 53px;
+              height: 53px;
+            }
+            .action-next-button{
+              display: inline-block;
+              vertical-align: top;
+              position: relative;
+              width: 67px;
+              height: 50px;
+              box-shadow: 0 3px 0 #417505;
+              border-radius: 6px;
+              background-image: linear-gradient(180deg, #7ed321 0%, #62a815 100%);
+              margin-left: 7px;
+              &:after{
+                background-image: url(../assets/back-icon.png);
+                position: absolute;
+                top: 0;
+                left:0;
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                transform: rotate(180deg);
+
+              }
+            }
+          }
         }
       }
       &.section-me-3{
