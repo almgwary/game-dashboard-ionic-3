@@ -1,3 +1,13 @@
 page-home {
 
+
+  ion-content{
+    background-image: url('../assets/tap2win-background-test.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .scroll-content {
+      top: 21px;
+    }
+  }
 }
