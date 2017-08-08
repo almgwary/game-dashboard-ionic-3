@@ -227,6 +227,22 @@ page-home {
             vertical-align: top;
             display: inline-block;
             margin: 7px;
+            position: relative;
+
+            .slider-item-badge {
+              width: 23px;
+              height: 23px;
+              background-color: #fa5c5c;
+              border-radius: 100px;
+              position: absolute;
+              top: 0;
+              right:0;
+              color: #ffffff;
+              font-family: "Avenir Next";
+              font-size: 13px;
+              font-weight: 700;
+              line-height: 1.8;
+            }
             img{}
           }
         }
