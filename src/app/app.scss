@@ -223,12 +223,13 @@ ion-header.header-me {
 
 /* Style for "Ad banner" */
 .ads{
-  width: 320px;
-  height: 46px;
+  width: 100%;
+  min-height: 46px;
   background-color: #000;
-  background-image: url('../assets/2-layers.png');
+  background-image: url(../assets/2-layers.png);
   position: absolute;
   bottom: 0px;
+  background-size: 100% 100%;
 }
 
 .left, .right {
