@@ -14,3 +14,128 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+// font faces
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../assets/fonts/avenir/AvenirNext-UltraLight.eot');
+  src: url('../assets/fonts/avenir/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/avenir/AvenirNext-UltraLight.woff') format('woff'),
+  url('../assets/fonts/avenir/AvenirNext-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-UltraLightItalic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-UltraLightItalic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-UltraLightItalic.ttf') format('truetype');
+ 	font-weight: 200;
+ 	font-style: italic;
+ }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../assets/fonts/avenir/AvenirNext-Regular.eot');
+  src: url('../assets/fonts/avenir/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/avenir/AvenirNext-Regular.woff') format('woff'),
+  url('../assets/fonts/avenir/AvenirNext-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-Italic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-Italic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-Italic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-Italic.ttf') format('truetype');
+ 	font-weight: 400;
+ 	font-style: italic;
+ }
+
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-Medium.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-Medium.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-Medium.ttf') format('truetype');
+ 	font-weight: 500;
+ 	font-style: normal;
+ }
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-MediumItalic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-MediumItalic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-MediumItalic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-MediumItalic.ttf') format('truetype');
+ 	font-weight: 500;
+ 	font-style: italic;
+ }
+
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-DemiBold.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-DemiBold.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-DemiBold.ttf') format('truetype');
+ 	font-weight: 600;
+ 	font-style: normal;
+ }
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-DemiBoldItalic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-DemiBoldItalic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-DemiBoldItalic.ttf') format('truetype');
+ 	font-weight: 600;
+ 	font-style: italic;
+ }
+
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-Bold.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-Bold.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-Bold.ttf') format('truetype');
+ 	font-weight: 700;
+ 	font-style: normal;
+ }
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-BoldItalic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-BoldItalic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-BoldItalic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-BoldItalic.ttf') format('truetype');
+ 	font-weight: 700;
+ 	font-style: italic;
+ }
+
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-Heavy.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-Heavy.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-Heavy.ttf') format('truetype');
+ 	font-weight: 900;
+ 	font-style: normal;
+ }
+ @font-face {
+ 	font-family: 'Avenir Next';
+ 	src: url('../assets/fonts/avenir/AvenirNext-HeavyItalic.eot');
+ 	src: url('../assets/fonts/avenir/AvenirNext-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+ 		url('../assets/fonts/avenir/AvenirNext-HeavyItalic.woff') format('woff'),
+ 		url('../assets/fonts/avenir/AvenirNext-HeavyItalic.ttf') format('truetype');
+ 	font-weight: 900;
+ 	font-style: italic;
+ }
+
+
+
+
+
+
+
+
+
