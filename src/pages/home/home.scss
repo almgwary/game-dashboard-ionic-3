@@ -214,7 +214,23 @@ page-home {
 
         }
       }
-      &.section-me-5{}
+      &.section-me-5{
+
+
+        .slider-me {
+          margin: auto;
+          text-align: center;
+          align-content: center;
+          vertical-align: top;
+
+          .slider-me-item{
+            vertical-align: top;
+            display: inline-block;
+            margin: 7px;
+            img{}
+          }
+        }
+      }
 
 
     }
