@@ -170,6 +170,7 @@ ion-header.header-me {
       min-height: 20px;
       margin: 0;
       position: absolute;
+      top: 7px;
     }
 
     .toolbar-background {
@@ -190,10 +191,12 @@ ion-header.header-me {
       .title-text{
         display: inline-block;
         padding-left: 30px;
+        padding-top: 2px;
       }
       .icon-me{
         position: absolute;
         transform: rotate(-55deg);
+        top: 5px;
       }
     }
 
@@ -212,7 +215,7 @@ ion-header.header-me {
 
 .icon-me-store {
   position: absolute;
-  right: 17px;
+  right: 13px;
   top: 0;
   width: 42px;
   height: 41px;
